@@ -69,7 +69,7 @@ html {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  transition:transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .nav-items a:hover {
@@ -205,8 +205,8 @@ html {
   border-radius: 22px;
   transition: all 0.3s ease;
 }
-#about:hover{
-    background-color: rgba(21, 31, 50, 0.5);
+#about:hover {
+  background-color: rgba(21, 31, 50, 0.5);
 }
 
 .about-content {
@@ -539,3 +539,339 @@ footer p {
   font-size: 13px;
 }
 
+/* =========================================================
+   ADVANCED CSS ENHANCEMENTS
+   Responsive design + accessibility + modern layout
+   (Original theme and styling preserved)
+========================================================= */
+
+/* Better sizing and anchor positioning */
+html {
+  scroll-padding-top: 90px;
+}
+
+.port-body {
+  min-width: 320px;
+  overflow-wrap: break-word;
+}
+
+/* Responsive project cards: Flexbox is upgraded to CSS Grid */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+}
+
+.project-card {
+  width: 100%;
+  min-width: 0;
+}
+
+/* Keyboard accessibility: visible focus without changing normal appearance */
+.nav-items a:focus-visible,
+.hero-buttons a:focus-visible,
+.contact-links a:focus-visible,
+.contact-content button:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 4px;
+}
+
+/* Smooth, consistent interaction for links and controls */
+.nav-items a,
+.hero-buttons a,
+.project-card,
+.education-item,
+.contact-links a,
+.contact-content button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Keep images responsive */
+.about-content img {
+  max-width: 100%;
+}
+
+/* ==============================
+   LARGE TABLETS / SMALL LAPTOPS
+============================== */
+
+@media (max-width: 1024px) {
+  .hero-content {
+    max-width: 800px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(42px, 5.5vw, 60px);
+  }
+
+  .project-content {
+    max-width: 900px;
+  }
+}
+
+/* ==============================
+   TABLETS
+============================== */
+
+@media (max-width: 768px) {
+  .port-header {
+    margin-bottom: 25px;
+  }
+
+  .nav-items {
+    gap: 18px;
+    padding: 0 16px;
+  }
+
+  .nav-items a {
+    font-size: 14px;
+  }
+
+  .hero-content {
+    padding: 40px 20px;
+    gap: 16px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(36px, 6vw, 48px);
+  }
+
+  .hero-content h2 {
+    font-size: clamp(18px, 3vw, 22px);
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+
+  .about-content {
+    padding: 45px 25px;
+  }
+
+  .about-content h2,
+  .skill-content h2,
+  .project-content h2,
+  .education-content h2,
+  .contact-content h2 {
+    font-size: 34px;
+    margin-bottom: 28px;
+  }
+
+  .skill-content {
+    padding: 60px 20px;
+  }
+
+  .project-content,
+  .education-content,
+  .contact-content {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+
+  .education-item {
+    padding: 22px;
+  }
+
+  .contact-content form {
+    padding: 25px;
+  }
+}
+
+/* ==============================
+   MOBILE PHONES
+============================== */
+
+@media (max-width: 480px) {
+  .port-header {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .port-nav {
+    height: auto;
+    min-height: 70px;
+  }
+
+  .nav-items {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 18px;
+    padding: 16px 12px;
+  }
+
+  .nav-items a {
+    font-size: 13px;
+    padding: 3px 0;
+  }
+
+  .hero-content {
+    padding: 30px 16px;
+    gap: 15px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(29px, 8vw, 36px);
+    letter-spacing: -0.5px;
+  }
+
+  .hero-content h2 {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .hero-buttons {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .hero-buttons a {
+    width: min(100%, 280px);
+    text-align: center;
+  }
+
+  .about-content {
+    padding: 35px 18px;
+  }
+
+  .about-content img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 22px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .about-content h2,
+  .skill-content h2,
+  .project-content h2,
+  .education-content h2,
+  .contact-content h2 {
+    font-size: 29px;
+    margin-bottom: 25px;
+  }
+
+  .skill-content {
+    padding: 45px 14px;
+  }
+
+  .skill-content table th,
+  .skill-content table td {
+    padding: 12px 8px;
+    font-size: 13px;
+  }
+
+  .project-content,
+  .education-content,
+  .contact-content {
+    padding: 40px 14px 50px;
+  }
+
+  .project-content > p {
+    font-size: 15px;
+  }
+
+  .project-list {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 25px;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+
+  .project-card h3 {
+    font-size: 20px;
+  }
+
+  .education-item {
+    padding: 18px;
+  }
+
+  .education-item h3 {
+    font-size: 17px;
+  }
+
+  .education-item h4 {
+    font-size: 15px;
+  }
+
+  .contact-content form {
+    padding: 18px;
+    gap: 9px;
+  }
+
+  .contact-content input,
+  .contact-content textarea {
+    font-size: 16px; /* Prevents automatic zoom on iOS input focus */
+  }
+
+  .contact-content button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-links {
+    gap: 10px;
+  }
+
+  .contact-links a {
+    padding: 9px 13px;
+    font-size: 13px;
+  }
+
+  footer {
+    padding: 20px 14px;
+  }
+}
+
+/* ==============================
+   VERY SMALL PHONES
+============================== */
+
+@media (max-width: 360px) {
+  .nav-items {
+    gap: 8px 13px;
+  }
+
+  .nav-items a {
+    font-size: 12px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .skill-content table th,
+  .skill-content table td {
+    padding: 10px 6px;
+    font-size: 12px;
+  }
+}
+
+/* ==============================
+   REDUCED MOTION ACCESSIBILITY
+============================== */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

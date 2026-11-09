@@ -1,69 +1,66 @@
-# Personal Portfolio Website
+# Shubhesh Jha | Personal Portfolio
 
-A personal portfolio website built using HTML5 and CSS3 to showcase my introduction, skills, projects, education, and contact information as a B.Tech Computer Science Engineering student.
+Welcome to my personal portfolio repository! 👋
 
-## Features
+This website represents my journey as a Computer Science Engineering student, showcasing my skills, projects, educational background, and ways to connect with me.
 
-- **Home Section:** Introduction, career goal, and navigation buttons.
-- **About Me:** Personal introduction and profile image.
-- **Skills Section:** Table displaying technical skills and current proficiency levels.
-- **Projects Section:** Showcases Velora Flame and my Personal Portfolio Website.
-- **Education Section:** Academic background at K.R. Mangalam University and Infant Jesus School.
-- **Contact Form:** Input fields for name, email, and message with basic HTML validation.
-- **Social Links:** Direct links to GitHub, LinkedIn, and email.
-- **Navigation Bar:** Internal links to different sections of the website.
-- **Dark Theme:** Dark blue background with blue accents and styled content sections.
-- **Hover Effects:** Interactive visual effects on navigation links, buttons, project cards, and other elements.
-- **Typography:** Google Fonts — Poppins, Cinzel, and Cinzel Decorative.
-- **Icons:** Font Awesome stylesheet integration.
-- **Smooth Scrolling:** Smooth navigation between sections.
-- **Semantic HTML:** Uses elements such as `header`, `nav`, `main`, `section`, `article`, and `footer`.
+🔗 **Live Website:** [View My Portfolio](https://majestic-pastelito-cc5967.netlify.app/)
 
-## Technologies Used
+## ✨ About the Website
 
-- HTML5
-- CSS3
-- Google Fonts
-- Font Awesome
+A personal portfolio website designed with a modern dark-themed interface and electric blue accents. It highlights my technical skills, academic journey, and projects in a clean and organized layout.
 
-## Projects Featured
+## 🚀 Features
 
-### 1. Velora Flame
+- Modern and minimal dark-themed design
+- Responsive layout for different screen sizes
+- Sticky navigation bar
+- Smooth scrolling navigation
+- About Me section
+- Technical Skills showcase
+- Projects section
+- Education details
+- Contact section with social links
+- Hover effects and smooth CSS transitions
 
-A luxury fine-dining website designed to present a modern restaurant experience using elegant styling and web layouts.
+## 🛠️ Technologies Used
 
-**Technologies:** HTML, CSS
+- **HTML5** – Website structure and content
+- **CSS3** – Styling and visual design
+  - Flexbox and CSS Grid
+  - Media Queries
+  - CSS Transitions and Transforms
+  - Pseudo-elements and Pseudo-classes
+  - Responsive Typography using `clamp()`
 
-### 2. Personal Portfolio Website
+## 📂 Website Sections
 
-A personal website created to showcase my technical skills, projects, educational background, and development journey.
+| Section   | Description                      |
+| --------- | -------------------------------- |
+| Home      | Introduction and welcome section |
+| About     | A brief introduction about me    |
+| Skills    | My technical skills              |
+| Projects  | Projects I've worked on          |
+| Education | My academic background           |
+| Contact   | Ways to connect with me          |
 
-**Technologies:** HTML, CSS
+## 🎨 Design
 
-## Project Structure
+The website follows a Midnight Blue and Electric Blue color palette, giving it a clean and modern appearance.
 
-```text
-Personal-Portfolio/
-├── index.html
-├── style.css
-├── profile.jpeg
-└── README.md
-```
-
-_Note: The filenames above should match the actual files in your repository._
-
-## How to Run
-
-1. Clone or download this repository.
-2. Open the project folder.
-3. Open `index.html` in your web browser.
-4. Make sure `style.css` and `profile.jpeg` are in the correct locations.
-
-## Author
+## 👨‍💻 About Me
 
 **Shubhesh Jha**
 
-B.Tech in Computer Science & Engineering  
-K.R. Mangalam University  
-GitHub: [shubhesh-jha07](https://github.com/shubhesh-jha07)  
-LinkedIn: [Shubhesh Jha](https://www.linkedin.com/in/shubhesh-jha-6a8a26300/)
+- B.Tech Computer Science Engineering Student
+- Interested in Web Development and Software Development
+- Currently learning and improving my programming skills
+
+## 📬 Connect With Me
+
+- **GitHub:** [shubhesh-jha07](https://github.com/shubhesh-jha07)
+- **Portfolio:** [Visit Website](https://majestic-pastelito-cc5967.netlify.app/)
+
+---
+
+⭐ If you like my portfolio, feel free to explore the repository!
